@@ -42,7 +42,7 @@ spec:
       - env:
         - name: service_name
           value: arcadia-unit-main
-        image: registry.f5-udf.com:5000/arcadia-main:unit
+        image: harbor.1broken.net/f5-arcadia/arcadia-main:unit
         imagePullPolicy: Always
         name: arcadia-unit-main
         ports:

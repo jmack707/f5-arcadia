@@ -62,7 +62,7 @@ spec:
     spec:
       serviceAccountName: nginx-ingress
       containers:
-      - image: registry.f5-udf.com:5000/nginx-plus-ingress:1.7.2
+      - image: harbor.1broken.net/nginx-plus-ingress:1.7.2
         imagePullPolicy: Always
         name: nginx-plus-ingress
         ports:
